@@ -5,3 +5,8 @@ C:\Users\aseasy\Desktop\С# DZ\1 lesson\4\4\obj\Debug\4.exe
 C:\Users\aseasy\Desktop\С# DZ\1 lesson\4\4\obj\Debug\4.pdb
 C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\4\obj\Debug\4.exe
 C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\4\obj\Debug\4.pdb
+C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\4\bin\Debug\4.exe
+C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\4\bin\Debug\4.pdb
+C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\4\obj\Debug\4.csprojResolveAssemblyReference.cache
+C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\obj\Debug\4.exe
+C:\Users\aseasy\Desktop\С# DZ\c-sharp 1 level\1 lesson\4\obj\Debug\4.pdb
