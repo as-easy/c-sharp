@@ -11,9 +11,9 @@ namespace _2_lesson
     {
         static void Main()
         {
-            //Task_4();
-            //Task_5();
-            //Task_6();
+            Task_4();
+            Task_5();
+            Task_6();
             Task_7();
         }
 
@@ -25,10 +25,11 @@ namespace _2_lesson
         /// </summary>
         static void Task_4()
         {
+            Console.Clear();
             Console.WriteLine("4 задание. Проверка логина и пароля");
             Console.WriteLine("\nДля продолжения нажмите любую клавишу...");
-            Console.ReadKey();
-            
+            Console.ReadKey();            
+
             int i = 0;
             string s1, s2;
 
@@ -91,6 +92,7 @@ namespace _2_lesson
         /// </summary>
         static void Task_5()
         {
+            Console.Clear();
             Console.WriteLine("5 задание. Вычисление индекса массы тела.");
             Console.WriteLine("\nДля продолжения нажмите любую клавишу...");
             Console.ReadKey();
@@ -135,6 +137,7 @@ namespace _2_lesson
         /// </summary>
         static void Task_6()
         {
+            Console.Clear();
             Console.WriteLine("6 задание. Подсчет \"Хороших\" чисел.");
             Console.WriteLine("\nДля продолжения нажмите любую клавишу...");
             Console.ReadKey();
@@ -143,7 +146,7 @@ namespace _2_lesson
             int sum = 0, count =0;
             int num, numtemp;
             DateTime start = DateTime.Now;
-            for (num = 1; num <= 1_000_000_000; num++) //1_000_000_000 - около 5 минут
+            for (num = 1; num <= 1_000_000_0; num++) //1_000_000_000 - около 5 минут
             {
                 numtemp = num;
 
@@ -170,6 +173,58 @@ namespace _2_lesson
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Задание 7. Разработать рекурсивный метод, который считает сумму чисел от a до b.
+        /// Расчет сумм ведется в методе Task_7_summa.
+        /// </summary>
+        static void Task_7()
+        {
+            Console.Clear();
+            Console.WriteLine("7 задание. Разработать рекурсивный метод, который считает сумму чисел от a до b.");
+            Console.WriteLine("\nДля продолжения нажмите любую клавишу...");
+            Console.ReadKey();
+            Console.Clear();
+
+            int a, b, sum;
+
+            Console.Write("Введите целое число a: ");
+            a = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите целое число b: ");
+            b = int.Parse(Console.ReadLine());
+
+            if (a > b)
+            {
+                Task_7_Obmen(ref a, ref b);
+            }
+
+            sum = 0;
+            sum = Task_7_summa(a, b, sum);
+
+            Console.WriteLine($"Сумма: {sum}");
+            Console.WriteLine("\nДля завершения работы нажмите любую клавишу...");
+            Console.ReadKey();
+        }
+
+        static int  Task_7_summa(int a, int b, int sum)
+
+        {           
+            if (a == b)
+            {
+                return  a;
+            }
+            else
+            {               
+                sum = a + Task_7_summa(++a, b, sum); //обязательно ++a, а не a++! Иначе а не будет прибавляться
+                return sum;
+            }
+        }
+
+        static void Task_7_Obmen (ref int a, ref int b)
+        {
+            int temp;            
+            temp = b; b = a; a = temp;
+        }
 
     }
 }
