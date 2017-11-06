@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _2_lesson
-{
-
+{   
+    /// <summary>
+    /// Автор: Варанкин Владимир
+    /// </summary>
     class Program
     {
         static void Main()
         {
             Task_4();
             Task_5();
-            Task_6();
+            Task_6();      
             Task_7();
         }
 
@@ -145,7 +143,8 @@ namespace _2_lesson
 
             int sum = 0, count =0;
             int num, numtemp;
-            DateTime start = DateTime.Now;
+            DateTime start = DateTime.Now;
+
             for (num = 1; num <= 1_000_000_0; num++) //1_000_000_000 - около 5 минут
             {
                 numtemp = num;
@@ -166,9 +165,11 @@ namespace _2_lesson
 
             }
 
-            DateTime finish = DateTime.Now;
+            DateTime finish = DateTime.Now;
+
             Console.WriteLine($"\nКоличество \"Хороших\" чисел: {count}");
-            Console.WriteLine($"\nПодсчет длился: {finish - start}");
+            Console.WriteLine($"\nПодсчет длился: {finish - start}");
+
             Console.WriteLine("\nДля перехода к следующему заданию нажмите любую клавишу...");
             Console.ReadKey();
         }

@@ -4,6 +4,11 @@
         <name>2 lesson</name>
     </assembly>
     <members>
+        <member name="T:_2_lesson.Program">
+            <summary>
+            Варанкин Владимир
+            </summary>
+        </member>
         <member name="M:_2_lesson.Program.Task_4">
             <summary>
             Задание 4. Реализовать метод проверки логина и пароля. 
