@@ -1,0 +1,7 @@
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\bin\Debug\3 lesson.exe.config
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\bin\Debug\3 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\bin\Debug\3 lesson.pdb
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\obj\Debug\3 lesson.csprojResolveAssemblyReference.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\obj\Debug\3 lesson.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\obj\Debug\3 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\3 lesson\3 lesson\obj\Debug\3 lesson.pdb
