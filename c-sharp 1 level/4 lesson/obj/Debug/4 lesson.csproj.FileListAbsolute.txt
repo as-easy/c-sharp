@@ -1,0 +1,5 @@
+C:\Users\aseasy\Desktop\c-sharp\c-sharp 1 level\4 lesson\bin\Debug\4 lesson.exe
+C:\Users\aseasy\Desktop\c-sharp\c-sharp 1 level\4 lesson\bin\Debug\4 lesson.pdb
+C:\Users\aseasy\Desktop\c-sharp\c-sharp 1 level\4 lesson\obj\Debug\4 lesson.csprojResolveAssemblyReference.cache
+C:\Users\aseasy\Desktop\c-sharp\c-sharp 1 level\4 lesson\obj\Debug\4 lesson.exe
+C:\Users\aseasy\Desktop\c-sharp\c-sharp 1 level\4 lesson\obj\Debug\4 lesson.pdb
