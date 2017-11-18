@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 namespace _5_lesson
 {
     /// <summary>
-    /// Класс Task_1 проверяет корректность ввода логина. 
+    /// Задание 1. Проверка корректности ввода логина. 
     /// <para>Корректным логином будет строка от 2-х до 10-ти символов, содержащая только буквы или цифры, и при этом цифра не может быть первой.</para>
     /// </summary>    
     static class Task_1
@@ -15,8 +15,6 @@ namespace _5_lesson
         /// <summary>
         /// Главный метод класса.
         /// <para>Метод просит пользователя ввести логин и выводит корректность логина</para>
-        /// <param name="logintemp">Введенный логин пользователя</param>
-        /// <param name="regex">Регулярное выражение - @"^[a-zA-Z][\w]{1,9}\b"</param>
         /// </summary>
         public static void Task_1_Main()
         {

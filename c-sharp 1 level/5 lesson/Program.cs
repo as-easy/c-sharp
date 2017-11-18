@@ -11,8 +11,9 @@ namespace _5_lesson
     class Program
     {
         static void Main()
-        {              
-            Task_1.Task_1_Main();            
+        {
+            Task_1.Task_1_Main();  
+            Task_3.Task_3_Main();
         }
     }
 }
