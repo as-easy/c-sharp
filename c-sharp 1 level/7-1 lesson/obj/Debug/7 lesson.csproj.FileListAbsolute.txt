@@ -8,3 +8,4 @@ C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 l
 C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.csproj.CoreCompileInputs.cache
 C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.exe
 C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.pdb
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\_7_lesson.Form2.resources
