@@ -1,0 +1,11 @@
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\bin\Debug\7 lesson.exe.config
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\bin\Debug\7 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\bin\Debug\7 lesson.pdb
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.csprojResolveAssemblyReference.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\_7_lesson.Form1.resources
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\_7_lesson.Properties.Resources.resources
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.csproj.GenerateResource.Cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\7 lesson.pdb
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\7 lesson\obj\Debug\_7_lesson.Form2.resources

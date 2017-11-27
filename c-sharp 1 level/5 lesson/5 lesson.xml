@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5 lesson</name>
+    </assembly>
+    <members>
+        <member name="T:_5_lesson.Task_1">
+            <summary>
+            Задание 1. Проверка корректности ввода логина. 
+            <para>Корректным логином будет строка от 2-х до 10-ти символов, содержащая только буквы или цифры, и при этом цифра не может быть первой.</para>
+            </summary>    
+        </member>
+        <member name="M:_5_lesson.Task_1.Task_1_Main">
+            <summary>
+            Главный метод класса.
+            <para>Метод просит пользователя ввести логин и выводит корректность логина</para>
+            </summary>
+        </member>
+        <member name="M:_5_lesson.Task_1.Verification(System.String,System.Text.RegularExpressions.Regex)">
+            <summary>
+            Проверка логина на корректность ввода
+            </summary>
+            <param name="logintemp">Введенный логин пользователя</param>
+            <param name="regex">Регулярное выражение, с помощью которого отсеиваются неккоректные логины</param>
+            <returns>Возвращает: true - корректный логин; false - некорректный логин</returns>
+        </member>
+        <member name="M:_5_lesson.Task_1.Login(System.String,System.Text.RegularExpressions.Regex)">
+            <summary>
+            Метод возвращает введенный логин; если логин был введен как "Login123+=", то вернется значение "Login123"
+            </summary>
+            <param name="logintemp">Введенный логин пользователя</param>
+            <param name="regex">Регулярное выражение, с помощью которого приводим логин в надлежащий вид</param>
+            <returns>Возвращает обработанный логин</returns>
+        </member>
+        <member name="T:_5_lesson.Task_3">
+            <summary>
+            Задание 3. Для двух строк написать метод, определяющий, является ли одна строка перестановкой другой. Регистр можно не учитывать.
+            <para> Б) С методом сортировки пузырьком</para>
+            </summary>
+        </member>
+        <member name="M:_5_lesson.Task_3.Task_3_Main">
+            <summary>
+            Главный метод класса.
+            <para> Метод просит пользователя ввести 2 строки для сравнения и выводит сообщения является ли Строка2 перестановкой букв Строки1</para>
+            </summary>
+        </member>
+        <member name="M:_5_lesson.Task_3.Bubble_Sort(System.Text.StringBuilder@)">
+            <summary>
+            Метод предназначен для сортировки "пузырьком"
+            </summary>
+            <param name="str">Принимаемая строка для сортировки</param>
+        </member>
+    </members>
+</doc>
