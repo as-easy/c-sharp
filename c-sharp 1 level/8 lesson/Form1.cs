@@ -12,55 +12,98 @@ namespace _8_lesson
 {
     public partial class Form1 : Form
     {
-        List<string> questions = new List<string>();
         
+       
+        List<Elements> questions = new List<Elements>();
         
+        private RadioButton selectedrb;
+
         public Form1()
         {
             InitializeComponent();
-            button1.Click += new EventHandler(this.mybutton1_click);
-            button2.Click += new EventHandler(this.mybutton2_click);
-            questions.Clear();
 
-            // Установите для свойства Multiline значение true. 
+            selectedrb = null;
+            //selectedrb.Text = "Выберите \"TRUE\" или \"FALSE\"";
+            //button1.Click += new EventHandler(this.mybutton1_click);
+
+            this.radioButton2.Text = "Choice 2";
+            this.radioButton2.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+
+            this.radioButton1.Text = "Choice 1";
+            this.radioButton1.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+
+            this.button1.Text = "Get selected RadioButton";
+            this.button1.Click += new EventHandler(getSelectedRB_Click);
+
             textBox1.Multiline = true;
-            // Добавьте вертикальные полосы прокрутки в элемент управления TextBox.
             textBox1.ScrollBars = ScrollBars.Vertical;
-            // Разрешить RETURN в элементе управления TextBox. 
             textBox1.AcceptsReturn = true;
-            // Разрешить ввод ключа TAB в элементе управления TextBox. 
-            textBox1.AcceptsTab = true;
-            // Установите WordWrap в значение true, чтобы текст мог переноситься на следующую строку. 
+            textBox1.AcceptsTab = true;            
             textBox1.WordWrap = true;
-
-            textBox2.Multiline = true;
-            textBox2.ScrollBars = ScrollBars.Vertical;
-            textBox2.AcceptsReturn = true;
-            textBox2.AcceptsTab = true;
-            textBox2.WordWrap = true;
         }
 
-        private void mybutton1_click(object sender, EventArgs e)
+
+        //private void mybutton1_click(object sender, EventArgs e)
+        //{
+        //    if (textBox1.Text.Length > 6)
+        //    {
+        //        questions.Add(textBox1.Text);
+        //        textBox1.Clear();
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Введите вопрос минимум из семи знаков!");
+        //    }
+        //}
+
+        void radioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length > 6)
+            RadioButton rb = sender as RadioButton;
+
+            if (rb == null)
             {
-                questions.Add(textBox1.Text);
-                textBox1.Clear();
+                MessageBox.Show("Sender is not a RadioButton");
+                return;
+            }           
+                        
+            if (rb.Checked)
+            {
+                selectedrb = rb;
+                
             }
-            else
+        }
+
+        // Show the text of the selected RadioButton.
+        void getSelectedRB_Click(object sender, EventArgs e)
+        {
+            if (selectedrb == null)
+            {
+                MessageBox.Show("Выберите \"TRUE\" или \"FALSE\"");
+                return;
+            }
+
+            if (textBox1.Text.Length < 7)
             {
                 MessageBox.Show("Введите вопрос минимум из семи знаков!");
+                return;
             }
+
+            questions.Add(new Elements(textBox1.Text, selectedrb == radioButton1 ? true : false));
+            textBox1.Clear();            
         }
 
-        private void mybutton2_click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             textBox2.Clear();
-            questions.ForEach(delegate (String q)
-           {
-               textBox2.Text += q + Environment.NewLine;
-           });
 
+            int i = 0;
+
+            foreach(var el in questions)
+            {
+                textBox2.Text += el.Str + Environment.NewLine;
+                textBox2.Text += el.Truefalse.ToString() + Environment.NewLine + Environment.NewLine;
+            }
+           
         }
     }
 }
