@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Elements>
+    <question>Цой жив?</question>
+    <truefalse>true</truefalse>
+  </Elements>
+  <Elements>
+    <question>1-1-1-1-1-1-1 = 005</question>
+    <truefalse>false</truefalse>
+  </Elements>
+  <Elements>
+    <question>йуйцуйцувыаы</question>
+    <truefalse>true</truefalse>
+  </Elements>
+  <Elements>
+    <question>???????!!!!!!!</question>
+    <truefalse>false</truefalse>
+  </Elements>
+</ArrayOfElements>

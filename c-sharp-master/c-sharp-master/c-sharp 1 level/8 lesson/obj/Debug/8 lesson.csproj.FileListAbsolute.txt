@@ -1,0 +1,19 @@
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.exe.config
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.pdb
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.csprojResolveAssemblyReference.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\_8_lesson.Form1.resources
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\_8_lesson.Properties.Resources.resources
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.csproj.GenerateResource.Cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.exe
+C:\Users\Владимир\Desktop\c-sharp\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.pdb
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.exe.config
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.exe
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.pdb
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.exe
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\bin\Debug\8 lesson.pdb
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.csprojResolveAssemblyReference.cache
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\_8_lesson.Form1.resources
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\_8_lesson.Properties.Resources.resources
+C:\Users\aseasy\Desktop\c-sharp\c-sharp-master\c-sharp-master\c-sharp 1 level\8 lesson\obj\Debug\8 lesson.csproj.GenerateResource.Cache

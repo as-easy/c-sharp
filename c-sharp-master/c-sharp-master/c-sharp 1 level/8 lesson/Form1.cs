@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace _8_lesson
 {
@@ -15,7 +17,7 @@ namespace _8_lesson
         
        
         List<Elements> questions = new List<Elements>();
-        
+        const string xmlfail = "questionDB.xml";
         private RadioButton selectedrb;
 
         public Form1()
@@ -25,12 +27,12 @@ namespace _8_lesson
             selectedrb = null;
             //selectedrb.Text = "Выберите \"TRUE\" или \"FALSE\"";
             //button1.Click += new EventHandler(this.mybutton1_click);
-
-            this.radioButton2.Text = "Choice 2";
-            this.radioButton2.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
-
-            this.radioButton1.Text = "Choice 1";
+            
+            this.radioButton1.Text = "TRUE";
             this.radioButton1.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
+
+            this.radioButton2.Text = "FALSE";
+            this.radioButton2.CheckedChanged += new EventHandler(radioButton_CheckedChanged);
 
             this.button1.Text = "Get selected RadioButton";
             this.button1.Click += new EventHandler(getSelectedRB_Click);
@@ -68,8 +70,7 @@ namespace _8_lesson
                         
             if (rb.Checked)
             {
-                selectedrb = rb;
-                
+                selectedrb = rb;                
             }
         }
 
@@ -95,15 +96,16 @@ namespace _8_lesson
         private void button2_Click(object sender, EventArgs e)
         {
             textBox2.Clear();
+            XmlClass xmlquestions = new XmlClass();
 
-            int i = 0;
 
-            foreach(var el in questions)
+            foreach (var el in questions)
             {
-                textBox2.Text += el.Str + Environment.NewLine;
-                textBox2.Text += el.Truefalse.ToString() + Environment.NewLine + Environment.NewLine;
+                textBox2.Text += el.question + Environment.NewLine;
+                textBox2.Text += el.truefalse.ToString() + Environment.NewLine + Environment.NewLine;
             }
-           
-        }
+
+            xmlquestions.SaveAsXmlFormat(questions, xmlfail);      
+        }        
     }
 }
