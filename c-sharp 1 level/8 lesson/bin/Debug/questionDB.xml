@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfElements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Elements>
+    <question>Спанчбоб - губка?</question>
+    <truefalse>true</truefalse>
+  </Elements>
+  <Elements>
+    <question>4! = 12?</question>
+    <truefalse>false</truefalse>
+  </Elements>
+  <Elements>
+    <question>Лиственница к зиме сбрасывает иголки?</question>
+    <truefalse>true</truefalse>
+  </Elements>
+  <Elements>
+    <question>Скорость света равна 299 792 м/с?</question>
+    <truefalse>false</truefalse>
+  </Elements>
+  <Elements>
+    <question>Зуб мудрости является ли переходом на новый уровень сознания?</question>
+    <truefalse>true</truefalse>
+  </Elements>
+</ArrayOfElements>
